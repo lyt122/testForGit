@@ -7,10 +7,11 @@ func main() {
 		a int
 		b int
 	)
-	scan, err := fmt.Scanln(a, b)
+	scan, err := fmt.Scanf("%d%d", &a, &b)
 	if err != nil {
-		fmt.Println(err)
+		println(scan)
 		return
+	} else {
+		println(a + b)
 	}
-	fmt.Println(a+b, scan)
 }
