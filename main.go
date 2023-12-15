@@ -32,6 +32,7 @@ func maxSumDivThree(nums []int) int {
 func main() {
 	nums := []int{2, 2, 2, 5}
 	maxSumDivThree(nums)
+	//
 	// make只传入一个参数指定长度，则容量和长度相等。以下输出："len: 10, cap: 10"
 	/*s := make([]int, 10)
 	fmt.Printf("len: %d, cap: %d\n", len(s), cap(s))
